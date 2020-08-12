@@ -1,0 +1,44 @@
+UNLOCK BOOTLOADER
+
+1. adb reboot bootloader
+2. adb device / devices
+3. fastboot oem unlock / unlock-go 
+4. fastboot flash oem unlock
+5. fastboot flshing unlock-go 
+6. fastboot oem device-info
+7. fastboot unlock devices-status
+8. adb / fastboot reboot
+
+
+TWRP & ROOT 
+
+1. adb reboot bootloader
+2. adb device / devices
+3. fastboot oem / unlock device-info
+4. fastboot flash recovery twrpc2.img
+5. fastboot flashing recovery twrp 
+6. adb reboot recovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
